@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  body {
+    @apply antialiased text-neutral-900 bg-white;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  /* Clean keyboard focus ring — visible but unobtrusive */
+  :focus-visible {
+    outline: 2px solid #404040;
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
