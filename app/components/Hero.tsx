@@ -39,7 +39,7 @@ export default function Hero() {
           View Projects
         </a>
         <a
-          href="https://github.com/your-github"
+          href="https://github.com/UMDKyle"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-2.5 rounded-md border border-neutral-300 text-neutral-700 text-sm font-medium hover:bg-neutral-50 hover:border-neutral-400 transition-colors"

@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "Recommendation Logic",
     ],
     githubUrl: "https://github.com/UMDKyle/GameMatch",
-    demoUrl: "game-match-beta.vercel.app",
+    demoUrl: "https://game-match-beta.vercel.app",
     featured: true,
     gifUrl: "/demos/gamematch.gif",
   },
